@@ -1,0 +1,62 @@
+nav {
+    background: rgba(0,0,0,0.3);
+    width: max-content;
+    padding: 0.7rem 1.7rem;
+    z-index: 1; 
+    justify-content: center;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    margin: 2rem;
+    align-items: center;
+    position: -webkit-sticky;
+}
+
+nav a{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+nav a.active{
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+
+nav a:hover{
+    background: rgb(1, 35, 255);
+}
+
+
+/* ====== MEDIA QUERIES ==== */
+
+/* LARGER DESKTOPS AND MONITORS */
+@media all and (min-width:1201px)  and (max-width:1880px) {
+    
+}
+
+
+/* LAPTOPS, LARGER TABLETS IN LANDSCAPE, AND SMALL DESKTOPS */
+@media all and (min-width:769px) and (max-width:1024px) {
+    
+}
+
+/* TABLETS & LARGER SMARTPHONES */
+@media all and (min-width:481px) and (max-width:768px) {
+    nav{
+        display: none;
+    }
+}
+
+/* SMALLER SMARTPHONES */
+@media all and (min-width:320px) and (max-width:480px) {
+    nav{
+        display: none;
+    }
+} 
+
+

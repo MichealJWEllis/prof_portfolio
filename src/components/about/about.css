@@ -1,0 +1,132 @@
+.about__container {
+    display: grid;
+    grid-template-columns: 75% 35%;
+    gap: 5%;
+    
+}
+
+.container {
+    display: flex;
+    margin: 50px
+}
+
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    /* border-radius: 100%;
+    background: linear-gradient(10deg, transparent, var(--color-primary), transparent ); */
+    display: grid;
+    place-items: center;
+}
+
+.about__me-image img{
+    border-radius: 2rem   ;
+    /* overflow: hidden; */
+    transition: var(--transition);
+    /* height: 110%; */
+}
+
+.about__me-image:hover{
+    transform: rotate(10deg);
+    transition: var(--transition)
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about__card{
+    background: var(--color-bg-variant);
+    border: 5px solid transparent;
+    border-radius: 1.5rem   ;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.about__card:hover {
+    background: rgba(128, 128, 128, 0.6);
+    border-color: blue;
+    cursor: default;
+    color: blue;
+    transform: rotate(5deg);
+    transition: var(--transition)
+}
+
+.about__icon{
+    color: var(--color-primary);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about__icon:hover{
+    color: blue;
+}   
+
+.about_content,  p {
+    margin: 2rem 0 2.6rem;
+    color:whitesmoke;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* ====== MEDIA QUERIES ==== */
+
+/* LARGER DESKTOPS AND MONITORS */
+@media all and (min-width:1201px)  and (max-width:1880px) {
+    .about__container {
+        display: grid;
+        grid-template-columns: 100% ; 
+    }
+    .about__me {
+        display: none;
+    }
+}
+
+
+/* LAPTOPS, LARGER TABLETS IN LANDSCAPE, AND SMALL DESKTOPS */
+@media all and (min-width:769px) and (max-width:1024px) {
+    .about__me-image img{
+        display: none;
+    }
+    .about__container {
+        display: grid;
+        grid-template-columns: 100% ; 
+    }
+    .about__me {
+        display: none;
+    }
+}
+
+/* TABLETS & LARGER SMARTPHONES */
+@media all and (min-width:481px) and (max-width:768px) {
+    .about__me-image img{
+        display: none;
+    }
+    .about__container {
+        display: grid;
+        grid-template-columns: 100% ; 
+        margin: 1rem;
+    }
+    .about__me {
+        display: none;
+    }
+}
+
+/* SMALLER SMARTPHONES */
+@media all and (min-width:320px) and (max-width:480px) {
+    .about__me-image img{
+        display: none;
+    }
+    .about__container {
+        display: grid;
+        grid-template-columns: 100% ; 
+        margin: 1rem;
+    }
+    .about__me {
+        display: none;
+    }
+} 
