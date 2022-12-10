@@ -13,6 +13,7 @@
     display: flex;
     gap: 1rem;
     justify-content: center;
+    color: white;
 }
 
 /* ========= HEADER SOCIALS */
@@ -24,12 +25,11 @@
     gap: 0.8rem;
     position: absolute;
     left: 30rem;
-    bottom: 10rem;
+    bottom: 20rem;
     width: 50px;
     border: 1px solid rgba(255, 255, 255, 0.303);
     padding: 10px;
     border-radius: 1rem ;
-    
     background-color: var(--color-bg-variant);
     backdrop-filter: blur(15px);
 }
@@ -38,7 +38,7 @@
     content: '';
     width: 2px;
     height: 2rem;
-    background: var(--color-primary);
+    background: white;
 }
 
 /* =========== ME */
@@ -64,7 +64,7 @@
 .scroll__down {
     position: absolute;
     right:30rem;
-    bottom: 12rem;
+    bottom: 21rem;
     transform: rotate(90deg);
     font-weight: 600;
     font-size: 1rem;
@@ -94,18 +94,49 @@
 				  -1px -1px 0 #000;
 }
 
+._socialScroll{
+    display: flex;
+}
+
 
 /* ====== MEDIA QUERIES ==== */
 
 /* LARGER DESKTOPS AND MONITORS */
 @media all and (min-width:1201px)  and (max-width:1880px) {
-    
+    .scroll__down{
+        position: absolute;
+        right:10rem;
+        bottom: 10rem;
+    }
+    .header__socials {
+        position: absolute;
+        left:12rem; 
+        bottom: 10rem;
+    }
+}
+
+@media all and (min-width:1024px)  and (max-width:1200px) {
+    .scroll__down{
+        position: absolute;
+        right:4rem;
+        bottom: 10rem;
+    }
+    .header__socials {
+        position: absolute;
+        left:5rem; 
+        bottom: 10rem;
+    }
 }
 
 
 /* LAPTOPS, LARGER TABLETS IN LANDSCAPE, AND SMALL DESKTOPS */
-@media all and (min-width:769px) and (max-width:1024px) {
-    
+@media all and (min-width:769px) and (max-width:1023px) {
+    .scroll__down{
+        display: none;
+    }
+    .header__socials {
+        display: none;
+    }
 }
 
 /* TABLETS & LARGER SMARTPHONES */
@@ -123,6 +154,12 @@
         border: 1px solid rgba(235, 235, 235, 0.36);
         box-shadow:rgba(0, 0, 0, 0.3) 0px 19px 10px, rgba(0, 0, 0, 0.15) 0px 15px 12px;
     }
+    .scroll__down{
+        display: none;
+    }
+    .header__socials {
+        display: none;
+    }
 }
 
 /* SMALLER SMARTPHONES */
@@ -139,5 +176,11 @@
         border-radius: 1rem  ;
         border: 1px solid rgba(235, 235, 235, 0.36);
         box-shadow:rgba(0, 0, 0, 0.3) 0px 19px 10px, rgba(0, 0, 0, 0.15) 0px 15px 12px;
+    }
+    .scroll__down{
+        display: none;
+    }
+    .header__socials {
+        display: none;
     }
 } 

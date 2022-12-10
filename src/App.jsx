@@ -7,7 +7,7 @@ import MyServices from "./components/myServices/Myservices";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-import video from "./assets/video/DJI_0043_Trim.mp4";
+import video from "./assets/video/vid.mp4";
 
 const App = () => {
     return (

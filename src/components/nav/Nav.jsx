@@ -2,7 +2,7 @@ import React from "react";
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { BiUserCircle } from "react-icons/bi";
-import { MdDeveloperMode } from "react-icons/md";
+//import { MdDeveloperMode } from "react-icons/md";
 import { MdOutlineContactPhone } from "react-icons/md";
 import { RiServiceLine } from "react-icons/ri";
 import { BsBriefcase } from "react-icons/bs";

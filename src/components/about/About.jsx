@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/myImages/IMG_1244.jpg";
+import ME from "../../assets/myImages/f161f2f803c5d37beb766c878b5ecc8c.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { AiOutlineFolder } from "react-icons/ai";

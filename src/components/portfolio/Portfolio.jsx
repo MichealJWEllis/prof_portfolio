@@ -2,7 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
-import ME from "../../assets/myImages/ME.jpg";
+import ME from "../../assets/myImages/cb8a0b256fcb0233020e58d48ced1bed.jpg";
 import BudgetSite from "../../assets/projectsImages/budget.png";
 //import TaskSite from "../../assets/projectsImages/task.png";
 import TodoSite from "../../assets/projectsImages/todo1.png";
