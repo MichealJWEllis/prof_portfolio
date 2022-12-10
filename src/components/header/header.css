@@ -23,13 +23,14 @@
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    left: 30rem;
     bottom: 10rem;
-    width: 40px;
+    width: 50px;
     border: 1px solid rgba(255, 255, 255, 0.303);
     padding: 10px;
     border-radius: 1rem ;
-    background: rgba(0, 0, 0, 0.076);
+    
+    background-color: var(--color-bg-variant);
     backdrop-filter: blur(15px);
 }
 
@@ -62,7 +63,7 @@
 
 .scroll__down {
     position: absolute;
-    right:-2.3rem;
+    right:30rem;
     bottom: 12rem;
     transform: rotate(90deg);
     font-weight: 600;
@@ -70,7 +71,7 @@
     border: 1px solid rgba(255, 255, 255, 0.303);
     padding: 10px;
     border-radius: 1rem ;
-    background: rgba(0, 0, 0, 0.076);
+    background-color: var(--color-bg-variant);
     backdrop-filter: blur(15px);
 }
 
@@ -86,7 +87,7 @@
 
 .nameDeco {
     color: white;
-	font-size: 40px;
+	font-size: 60px;
 	text-shadow: -1px 1px 2px #000,
 				  1px 1px 2px #000,
 				  1px -1px 0 #000,

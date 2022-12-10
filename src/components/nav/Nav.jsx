@@ -35,14 +35,14 @@ const Nav = () => {
                 >
                     <BiUserCircle />
                 </a>
-                <a
+                {/* <a
                     title="Experience"
                     href="#experience"
                     onClick={() => setActiveNav("#experience")}
                     className={activeNav === "#experience" ? "active" : ""}
                 >
                     <MdDeveloperMode />
-                </a>
+                </a> */}
                 <a
                     title="Services"
                     href="#services"
