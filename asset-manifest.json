@@ -1,7 +1,7 @@
 {
-  "main.css": "/prof_portfolio/static/css/main.9379f660.chunk.css",
-  "main.js": "/prof_portfolio/static/js/main.625868a1.chunk.js",
-  "main.js.map": "/prof_portfolio/static/js/main.625868a1.chunk.js.map",
+  "main.css": "/prof_portfolio/static/css/main.4a24c9a0.chunk.css",
+  "main.js": "/prof_portfolio/static/js/main.90925d61.chunk.js",
+  "main.js.map": "/prof_portfolio/static/js/main.90925d61.chunk.js.map",
   "static/css/1.de939937.chunk.css": "/prof_portfolio/static/css/1.de939937.chunk.css",
   "static/js/1.22413e52.chunk.js": "/prof_portfolio/static/js/1.22413e52.chunk.js",
   "static/js/1.22413e52.chunk.js.map": "/prof_portfolio/static/js/1.22413e52.chunk.js.map",
@@ -20,10 +20,10 @@
   "static/media/Screenshot 2022-12-07 120420.png": "/prof_portfolio/static/media/Screenshot 2022-12-07 120420.bf3a5f90.png",
   "static/media/Screenshot 2022-12-07 120516.png": "/prof_portfolio/static/media/Screenshot 2022-12-07 120516.4f7dc8af.png",
   "static/media/vid.mp4": "/prof_portfolio/static/media/vid.d6afa237.mp4",
-  "static/media/semantic.min.css": "/prof_portfolio/static/media/brand-icons.c5ebe0b3.ttf",
-  "static/css/main.9379f660.chunk.css.map": "/prof_portfolio/static/css/main.9379f660.chunk.css.map",
+  "static/media/semantic.min.css": "/prof_portfolio/static/media/brand-icons.a1a749e8.svg",
   "static/css/1.de939937.chunk.css.map": "/prof_portfolio/static/css/1.de939937.chunk.css.map",
+  "static/css/main.4a24c9a0.chunk.css.map": "/prof_portfolio/static/css/main.4a24c9a0.chunk.css.map",
   "index.html": "/prof_portfolio/index.html",
-  "precache-manifest.20b6348fb64ff27da8de47be3dc6a485.js": "/prof_portfolio/precache-manifest.20b6348fb64ff27da8de47be3dc6a485.js",
+  "precache-manifest.9505e206f364412184618123bc56b9ac.js": "/prof_portfolio/precache-manifest.9505e206f364412184618123bc56b9ac.js",
   "service-worker.js": "/prof_portfolio/service-worker.js"
 }
