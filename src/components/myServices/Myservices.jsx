@@ -13,8 +13,15 @@ const Myservices = () => {
                             <ul>
                                 <li>
                                     <div className="infoBox">
-                                        <h3>Website UI/UX Design</h3>
+                                        <h3>
+                                            Informational or Small Business
+                                            Website{" "}
+                                        </h3>
                                         <ul>
+                                            <li>Website UI/UX Design</li>
+                                            <li>Site Planning</li>
+                                            <li>Web Hosting</li>
+                                            <li>Database Management</li>
                                             <li>
                                                 Please use contact form below
                                                 for pricing and consultation
@@ -25,8 +32,12 @@ const Myservices = () => {
                                 <li>
                                     <div className="infoBox">
                                         {" "}
-                                        <h3>Site Planning</h3>
+                                        <h3>Corporate Website</h3>
                                         <ul>
+                                            <li>Website UI/UX Design</li>
+                                            <li>Site Planning</li>
+                                            <li>Web Hosting</li>
+                                            <li>Database Management</li>
                                             <li>
                                                 Please use contact form below
                                                 for pricing and consultation
@@ -37,8 +48,12 @@ const Myservices = () => {
                                 <li>
                                     <div className="infoBox">
                                         {" "}
-                                        <h3>Web Hosting</h3>
+                                        <h3>Ecommerce Website</h3>
                                         <ul>
+                                            <li>Website UI/UX Design</li>
+                                            <li>Site Planning</li>
+                                            <li>Web Hosting</li>
+                                            <li>Database Management</li>
                                             <li>
                                                 Please use contact form below
                                                 for pricing and consultation
@@ -49,8 +64,15 @@ const Myservices = () => {
                                 <li>
                                     <div className="infoBox">
                                         {" "}
-                                        <h3>Database Management</h3>
+                                        <h3>
+                                            Database Driven Website or Website
+                                            Application
+                                        </h3>
                                         <ul>
+                                            <li>Website UI/UX Design</li>
+                                            <li>Site Planning</li>
+                                            <li>Web Hosting</li>
+                                            <li>Database Management</li>
                                             <li>
                                                 Please use contact form below
                                                 for pricing and consultation
