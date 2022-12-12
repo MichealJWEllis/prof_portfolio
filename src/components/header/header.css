@@ -106,12 +106,12 @@
     .scroll__down{
         position: absolute;
         right:10rem;
-        bottom: 10rem;
+        bottom: 105rem;
     }
     .header__socials {
         position: absolute;
         left:12rem; 
-        bottom: 10rem;
+        bottom: 102rem;
     }
 }
 
@@ -119,12 +119,12 @@
     .scroll__down{
         position: absolute;
         right:4rem;
-        bottom: 10rem;
+        bottom: 85rem;
     }
     .header__socials {
         position: absolute;
         left:5rem; 
-        bottom: 10rem;
+        bottom: 83rem;
     }
 }
 
