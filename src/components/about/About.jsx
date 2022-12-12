@@ -45,8 +45,8 @@ const About = () => {
                     </p>
 
                     <p style={{ fontSize: "2rem" }}>
-                        How a website is built has an impact n it usability,
-                        functionality and effaccy. As internet usage increases
+                        How a website is built has an impact on it usability,
+                        functionality and efficacy. As internet usage increases
                         year by year, it is essential that business websites are
                         not only visually appealing but are also functional and
                         user-friendly. Beautifully designed and executed
